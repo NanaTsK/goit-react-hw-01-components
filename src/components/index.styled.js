@@ -1,11 +1,14 @@
-import { styled } from "styled-components";
+import { styled } from 'styled-components';
 
-// export const Container = styled.div`
-//   background-color: #222831;
-//   border-radius: 5px;
-//   box-shadow: rgba(0, 0, 0, 0.7);
-//   color: #fff;
-//   margin: 10px auto;
-//   padding: 15px;
-//   width: 300px;
-// `
+export const Container = styled.div`
+  background-color: rgba(104, 133, 176, 0.7);
+  border-radius: 8px;
+  box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.7);
+  color: #fff;
+  margin: 10px auto;
+  padding: 15px;
+  width: 300px;
+`;
+
+//  box-shadow: rgba(0, 0, 0, 0.7);
+//  background-color: #6885b0;
