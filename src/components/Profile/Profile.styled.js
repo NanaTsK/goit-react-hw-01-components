@@ -1,7 +1,7 @@
 import { styled } from 'styled-components';
 
 export const ProfileCard = styled.div`
-  //   margin-bottom: 100px;
+  // xxx
 `;
 export const PhotoCard = styled.div`
   display: flex;
