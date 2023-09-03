@@ -13,12 +13,12 @@ export const Photo = styled.img`
   width: 180px;
   height: 180px;
   border-radius: 50%;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   background-color: #e5e8e8;
 `;
 export const Name = styled.p`
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 24px;
+  font-weight: bolder;
   margin-bottom: 8px;
 `;
 export const Tag = styled.p`
@@ -47,6 +47,6 @@ export const Label = styled.span`
   // xxx
 `;
 export const Quantity = styled.span`
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
 `;
