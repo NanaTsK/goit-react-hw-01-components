@@ -20,9 +20,9 @@ export const FriendsItem = styled.li`
   }
 `;
 
-export const FriendsStatus = styled('span')(({ $isOnline }) => {
+export const FriendsStatus = styled('span')(({ isOnline }) => {
   return {
-    backgroundColor: $isOnline ? '#adff2f' : '#CBD2D8',
+    backgroundColor: isOnline ? '#adff2f' : '#CBD2D8',
     borderRadius: '50%',
     width: '10px',
     height: '10px',

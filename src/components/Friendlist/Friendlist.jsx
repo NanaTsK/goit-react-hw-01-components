@@ -12,12 +12,12 @@ export const FriendList = ({ friends }) => {
   return (
     <Container>
       <FriendsCard>
-        {friends.map(({ id, avatar, name, $isOnline }) => (
+        {friends.map(({ id, avatar, name, isOnline }) => (
           <FriendListItem
             key={id}
             avatar={avatar}
             name={name}
-            isOnline={$isOnline}
+            isOnline={isOnline}
           />
         ))}
       </FriendsCard>
@@ -28,7 +28,7 @@ export const FriendList = ({ friends }) => {
 const FriendListItem = ({ avatar, name, isOnline }) => {
   return (
     <FriendsItem>
-      <FriendsStatus $isOnline={isOnline}></FriendsStatus>
+      <FriendsStatus isOnline={isOnline}></FriendsStatus>
       <IconAvatarFriend src={avatar} alt="User avatar" />
       <NameFriend>{name}</NameFriend>
     </FriendsItem>
