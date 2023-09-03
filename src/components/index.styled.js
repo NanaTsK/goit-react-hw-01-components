@@ -9,6 +9,3 @@ export const Container = styled.div`
   padding: 15px;
   width: 300px;
 `;
-
-//  box-shadow: rgba(0, 0, 0, 0.7);
-//  background-color: #6885b0;
